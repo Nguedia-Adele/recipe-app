@@ -1,0 +1,36 @@
+/* StarRating.css */
+
+.star-rating {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start !important;
+}
+
+.stars {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* Align stars to the left */
+}
+
+.rating-number {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+/* Style for elements with both "fas" and "filled" classes */
+
+.fas.filled {
+  color: #f19a3e;
+  /* Make the elements orange */
+}
+
+.far {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f19a3e;
+}
+
+.rating-number {
+  color: #333333;
+  font-weight: 400;
+}

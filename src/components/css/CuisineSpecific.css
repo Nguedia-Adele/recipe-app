@@ -1,0 +1,9 @@
+/* components/RecipesByCuisine.css */
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+/* Style your RecipeCard component appropriately */

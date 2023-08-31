@@ -1,0 +1,42 @@
+/* SearchBar.css */
+
+.search-form {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 7px 15px;
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+  background-color: transparent;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.clear-icon {
+  display: none;
+}
+
+/* Add more styles as needed */

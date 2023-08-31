@@ -1,0 +1,56 @@
+/* NavigationBar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+/* Logo styling */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Navigation pills container */
+
+.nav-pills {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
+  /* Don't allow pills to wrap to the next line */
+}
+
+/* Individual navigation pill */
+
+.nav-pill {
+  background-color: #05a357;
+  color: white !important;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  padding: 10px 20px;
+  /* Adjust padding for pill shape */
+  border-radius: 50px;
+  /* Make it pill-shaped */
+  text-align: center;
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+}
+
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Add more styles as needed */

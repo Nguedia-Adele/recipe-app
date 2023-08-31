@@ -1,0 +1,116 @@
+/* globalStyles.css */
+
+/* Fonts */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  /* Center content vertically */
+  justify-content: center;
+  /* Center content horizontally */
+  align-items: center;
+  /* Center content vertically */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(8, 8, 8);
+}
+
+/* Font Sizes */
+
+body {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.small {
+  font-size: 12.5px;
+}
+
+/* Colors */
+
+:root {
+  --primary-color: #05a357;
+  --secondary-color: #e71d36;
+  --text-color: #333333;
+  --accent-color: #2196f3;
+}
+
+/* Common Styles */
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.label {
+  padding: 5px 8px;
+  color: #fff;
+  border-radius: 5px 0 0 5px !important;
+  font-size: 13px !important;
+}
+
+.vegan {
+  background-color: #05a357;
+  /* Green for vegan */
+}
+
+.gluten {
+  background-color: #f19a3e;
+  /* Orange for gluten-free */
+}
+
+.lactose {
+  background-color: #2196f3;
+  /* Blue for lactose-free */
+}
+
+.icon {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #333333;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+.recipe-details-section {
+  padding: 10px 25px;
+}
+
+.recipe-details {
+  text-align: left !important;
+  margin-top: 15px !important;
+  color: #333333;
+}
+
+/* Add more global styles as needed */
