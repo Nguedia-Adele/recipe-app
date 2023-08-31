@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/recipe-app/static/css/main.cbebdbfc.css",
+    "main.js": "/recipe-app/static/js/main.74ff6b10.js",
+    "static/js/787.13aee4be.chunk.js": "/recipe-app/static/js/787.13aee4be.chunk.js",
+    "static/media/italian.jpg": "/recipe-app/static/media/italian.eca9559095dc7bc44e15.jpg",
+    "static/media/african.jpg": "/recipe-app/static/media/african.34df935ae8f4761299c8.jpg",
+    "static/media/greek.jpg": "/recipe-app/static/media/greek.1af5b8d1198b0a84cf0c.jpg",
+    "static/media/mexican.jpg": "/recipe-app/static/media/mexican.b21ac992639a5c7bf6aa.jpg",
+    "static/media/chinese.jpg": "/recipe-app/static/media/chinese.18b324c98492be846cab.jpg",
+    "static/media/french.jpg": "/recipe-app/static/media/french.c92072bb908c19f73382.jpg",
+    "static/media/american.jpg": "/recipe-app/static/media/american.06f028bc2a6c0faa00d8.jpg",
+    "static/media/japanese.jpg": "/recipe-app/static/media/japanese.2ad95e137dd98ea90ce7.jpg",
+    "static/media/indian.jpg": "/recipe-app/static/media/indian.3276f0e83f9938dfaf72.jpg",
+    "index.html": "/recipe-app/index.html",
+    "main.cbebdbfc.css.map": "/recipe-app/static/css/main.cbebdbfc.css.map",
+    "main.74ff6b10.js.map": "/recipe-app/static/js/main.74ff6b10.js.map",
+    "787.13aee4be.chunk.js.map": "/recipe-app/static/js/787.13aee4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbebdbfc.css",
+    "static/js/main.74ff6b10.js"
+  ]
+}
