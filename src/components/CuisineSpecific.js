@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import PopularRecipe from "./PopularRecipe"; // Import the PopularRecipe component
-import config from "../config/config";
 import { useParams, Link } from "react-router-dom";
 import "./css/CuisineSpecific.css"; // Import custom CSS
 
@@ -13,7 +12,7 @@ function CuisineSpecific() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const apiKey = config.apiKey;
+    const apiKey = process.env.REACT_APP_API_KEY;
     const cuisineApiUrl = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&cuisine=${cuisineName}&number=20&addRecipeInformation=true&diet=vegan,vegetarian&intolerances=lactose&excludeIngredients=gluten`;
 
     axios
